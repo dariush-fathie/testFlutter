@@ -73,6 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
+
         // in the middle of the parent.
         child: Column(
           // Column is also a layout widget. It takes a list of children and
@@ -92,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Hellow World',
+              'Hello World!',
             ),
             Text(
               '$_counter',
